@@ -1,0 +1,3 @@
+Asm language gtksourceview3.0 highlighting specification for gedit
+This will probably work on any other editors that support gtksourceview3.0
+To use copy asm.lang to /usr/share/gtksourceview-3.0/language-specs/
