@@ -24,6 +24,8 @@
 		<style id="function" _name="Function" map-to="def:function"/>
 	</styles>
 
+    <default-regex-options case-sensitive="false"/>
+
 	<definitions>
 		<context id="asm">
 			<include>
