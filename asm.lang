@@ -7,7 +7,7 @@
 <!DOCTYPE language SYSTEM "language.dtd">
 <language id="asm" _name="asm" version="2.0" _section="Sources">
 	<metadata>
-		<property name="mimetypes">text/x-asm</property>
+		<property name="mimetypes">text/x-arm-asm</property>
     	<property name="globs">*.s</property>
 	</metadata>
 
