@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- This program is free software. It comes without any warranty, to
      the extent permitted by applicable law. You can redistribute it
      and/or modify it under the terms of the Do What The Fuck You Want
      To Public License, Version 2, as published by Sam Hocevar. See
      http://www.wtfpl.net/ for more details. -->
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 <language id="asm" _name="asm" version="2.0" _section="Sources">
 	<metadata>
@@ -89,16 +89,16 @@
 					<keyword>asr</keyword>
 					<keyword>ror</keyword>
 					<keyword>rrx</keyword>
-					<keyword>ldr</keyword>
 					<keyword>mul</keyword>
 					<keyword>mla</keyword>
-					<keyword>str</keyword>
 					<keyword>ldrb</keyword>
 					<keyword>strb</keyword>
 					<keyword>ldrh</keyword>
 					<keyword>strh</keyword>
 					<keyword>ldrsb</keyword>
 					<keyword>ldrsh</keyword>
+					<keyword>ldr</keyword>
+					<keyword>str</keyword>
 					<keyword>ldm</keyword>
 					<keyword>stm</keyword>
 					<keyword>push</keyword>
@@ -113,7 +113,10 @@
 					<keyword>mcr</keyword>
 					<keyword>ldc</keyword>
 					<keyword>stc</keyword>
+					<keyword>ble</keyword>
+					<keyword>bls</keyword>
 					<keyword>bl</keyword>
+					<keyword>bx</keyword>
 					<keyword>b</keyword>
 				</context>
 				<context id="preprocessor" style-ref="preprocessor">
@@ -172,6 +175,12 @@
         			<keyword>dcqu</keyword>
         			<keyword>globl</keyword>
         			<keyword>global</keyword>
+        			<keyword>thumb</keyword>
+        			<keyword>thumb_func</keyword>
+        			<keyword>text</keyword>
+        			<keyword>include</keyword>
+        			<keyword>equ</keyword>
+        			<keyword>ltorg</keyword>
         		</context>
         		<context id="hexadecimal" style-ref="number">
         			<match extended="true">([#?]|[=?])? 0x[a-f0-9]+</match>
